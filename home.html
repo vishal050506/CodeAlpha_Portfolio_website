@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal's Portfolio </title>
+    <link rel="shortcut icon" type="x-icon" href="/images/Screenshot 2023-07-28 at 10.57.20 PM.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Screenshot 2023-07-28 at 10.57.20 PM.png" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact01">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Vishal</span><br> from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/user.jpg" height="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>Hey, I'm Vishal and I'm Highly skilled front-end developer proficient in HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, React.js and Version Control. Specialized in crafting captivating and user-friendly web applications. Experienced in creating responsive designs and optimizing performance. Adept at collaborating with cross-functional teams and committed to delivering seamless user experiences through a combination of technical expertise and creative design.</p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>President of Coding Club CodeX At GIET, Sonipat.</li>
+                            <li><span>01/06/2024 - 01/07/2024</span><br>Frontend Developer in CodSoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>Completed 10th</li>
+                            <li><span>2021 </span><br>12th from CBSE Board</li>
+                            <li><span>2021-2025</span><br>Pursuing B.tech.(CSE) From DCRUST University Murthal , Sonipat</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Responsive Designs</h2>
+                    <p>Responsive web designs ensure that websites provide an optimal viewing experience across various devices and screen sizes. This approach enhances usability by adapting layout and content dynamically, ensuring accessibility for all users.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Passionate web developer with experience crafting dynamic, responsive websites and web applications. Proficient in HTML, CSS, JavaScript, and modern frameworks such as React and Angular.</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designed intuitive and engaging user interfaces with a focus on enhancing user experience, utilizing modern design principles and tools. Collaborated closely with cross-functional teams to implement seamless and efficient user interactions, ensuring a visually appealing and user-friendly product.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Digital Signature Web App</h2>
+                        <p>Developed a secure and user-friendly digital signature web app, enabling seamless document signing and verification. Integrated advanced encryption technologies to ensure the authenticity and integrity of signed documents.</p>
+                        <a href="https://digiisignature.netlify.app"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Apple Clone Web App</h2>
+                        <p>
+Developed an Apple clone web app, meticulously replicating the aesthetics and functionality of Apple's official site. Implemented responsive design and smooth navigation to deliver an authentic user experience across various devices.</p>
+                        <a href="https://cloneapplewebapp.netlify.app"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Ambulance Booking Web App</h2>
+                        <p>Developed an Ambulance Booking Web App streamlines the process of requesting emergency medical transport, allowing users to quickly book an ambulance online. It provides real-time updates, location tracking, and immediate access to critical care services, enhancing response times and patient safety.</p>
+                        <a href="https://life-line-ems.netlify.app"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" id="contact01">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> vishal050506@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 1234567890</p>
+                    <br>
+                    <div class="social-icons">
+                        <a href="https://github.com/vishal050506"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/vishal.verma0001?igsh=NXE1aWxocHFiNHZn&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vishal-verma-152553250"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Vishal <i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
